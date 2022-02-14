@@ -10,7 +10,7 @@ import { iConductor } from '../models/Trabajadores/conductor'
   providedIn: 'root'
 })
 export class TransporteService {
-  private url = 'http://localhost:3000';
+  private url = 'https://transporteapi.herokuapp.com';
   constructor(private http: HttpClient) { }
 
 
