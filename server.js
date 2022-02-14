@@ -1,8 +1,8 @@
 const express = require('express')
 const app = express()
-app.use(express.static('./dist/Proyecto_TransporteV2'));
+app.use(express.static('./dist/proyecto-transporte-v2'));
 app.get('/*', function(req, res) {
- res.sendFile('index.html', {root: 'dist/Proyecto_TransporteV2/'}
+ res.sendFile('index.html', {root: 'dist/proyecto-transporte-v2/'}
  );
 });
 const port = 3500;
